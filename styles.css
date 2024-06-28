@@ -41,3 +41,90 @@ li {
 li:hover {
     background-color: #e0e0e0;
 }
+
+.details-button{
+    margin-left: 90px;
+}
+.name{
+    margin-top: 30px;
+}
+.country-item{
+    display: flex;
+    justify-content: center;
+}
+
+.details-button{
+    color: blue;
+    border-color: blue;
+}
+.map-button{
+    color: blue;
+    border-color: blue;
+}
+
+/* General styles for the country list */
+#countryList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.country-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.flag-image {
+    margin-right: 15px;
+    border: 1px solid #ddd;
+}
+
+.name {
+    flex-grow: 1;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.details-button, .map-button {
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border: none;
+    cursor: pointer;
+}
+
+.details-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.map-button {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Additional styles for hover effects */
+.country-item:hover {
+    background-color: #f1f1f1;
+}
+
+.details-button:hover, .map-button:hover {
+    opacity: 0.8;
+}
+
+.flag-image{
+    width: 100px;
+    height: auto;
+}
